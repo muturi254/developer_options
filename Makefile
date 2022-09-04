@@ -9,7 +9,7 @@ test:
 	# python -m pytest --nbval notebook.ipynb
 
 lint:
-	pylint --disable=R, C hello.py
+	pylint --disable=R, hello.py
 
 
 all: install lint test
